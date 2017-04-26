@@ -1,0 +1,17 @@
+.promo {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.jpg") top center fixed;
+  background-size: cover; }
+  .promo__inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.8); }
+  .promo__logo {
+    padding: 16px; }
+    .promo__logo img {
+      max-width: 100%; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAicHJvbW8uY3NzIiwKCSJzb3VyY2VzIjogWwoJCSJwcm9tby5zY3NzIgoJXSwKCSJuYW1lcyI6IFtdLAoJIm1hcHBpbmdzIjogIkFBQUEsQUFBQSxNQUFNLENBQUM7RUFDTCxPQUFPLEVBQUUsS0FBSztFQUNkLEtBQUssRUFBRSxJQUFJO0VBQ1gsTUFBTSxFQUFFLEtBQUs7RUFDYixVQUFVLEVBQUUseUJBQXlCLENBQUMsR0FBRyxDQUFDLE1BQU0sQ0FBQyxLQUFLO0VBQ3RELGVBQWUsRUFBRSxLQUFLLEdBb0J2QjtFQWxCQyxBQUFBLGFBQVEsQ0FBQztJQUNQLE9BQU8sRUFBRSxVQUFVO0lBQ25CLFVBQVUsRUFBRSxNQUFNO0lBQ2xCLGNBQWMsRUFBRSxNQUFNO0lBQ3RCLFVBQVUsRUFBRSxrQkFBa0IsR0FDL0I7RUFFRCxBQUFBLFlBQU8sQ0FBQztJQUNOLE9BQU8sRUFBRSxJQUFJLEdBS2Q7SUFORCxBQUdFLFlBSEssQ0FHTCxHQUFHLENBQUM7TUFDRixTQUFTLEVBQUUsSUFBSSxHQUNoQiIKfQ== */
