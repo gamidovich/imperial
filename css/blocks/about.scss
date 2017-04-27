@@ -1,0 +1,27 @@
+.about {
+
+    &__inner {
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    &__description {
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg;
+        color: $gray;
+    }
+
+    &__pic {
+
+    }
+
+    &__abzar {
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg-m;
+        text-align: left;
+        color: $gray;
+    }
+}

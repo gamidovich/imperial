@@ -1,0 +1,53 @@
+.services {
+
+    &__inner {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    &__description {
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg;
+        text-align: center;
+        color: $gray;
+    }
+
+    &__text {
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg-m;
+        color: $gray;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__text-box {
+        flex: 1;
+        padding: 0 10px;
+    }
+
+    &__pic {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+        border: 1px solid $blue;
+        border-radius: 50%;
+        color: $white;
+    }
+
+    &__pic:hover {
+        color: $blue;
+        background-color: transparent;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+    }
+}

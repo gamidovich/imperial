@@ -1,26 +1,30 @@
-$font-family-1:       "Raleway", sans-serif;
-$font-family-2:       "Open Sans", sans-serif;
+$font-family-1:        "Raleway", sans-serif;
+$font-family-2:        "Open Sans", sans-serif;
 
-$font-weight-light:   300;
-$font-weight-regular: 400;
-$font-weight-bold:    700;
+$font-weight-light:    300;
+$font-weight-regular:  400;
+$font-weight-medium:   500;
+$font-weight-bold:     700;
 
-$font-size-normal:    10px;
-$font-size-sm:        1.3rem;
-$font-size-base:      1.4rem;
-$font-size-lg:        1.6rem;
-$font-size-lg-x:      1.8rem;
-$font-size-larger:    2.8rem;
-$font-size-larger-x:  3.0rem;
-$font-size-big:       3.2rem;
-$font-size-big-x:     3.6rem;
+$font-size-normal:     10px;
+$font-size-sm:         1.3rem;
+$font-size-base:       1.4rem;
+$font-size-lg:         1.6rem;
+$font-size-lg-x:       1.8rem;
+$font-size-lg-xx:      2.4rem;
+$font-size-larger:     2.8rem;
+$font-size-larger-x:   3.0rem;
+$font-size-big:        3.2rem;
+$font-size-big-x:      3.6rem;
 
-$line-height-normal:  1;
-$line-height-base:    1.1;
-$line-height-lg:      1.4;
-$line-height-lg-x:    2.4;
-$line-height-larger:  2.6;
-$line-height-big:     4.8;
+$line-height-normal:   1;
+$line-height-base:     1.1;
+$line-height-lg:       1.4;
+$line-height-lg-m:     1.8;
+$line-height-lg-x:     2.4;
+$line-height-larger:   2.6;
+$line-height-larger-x: 3.6;
+$line-height-big:      4.8;
 
 h1,
 h2,
@@ -31,8 +35,8 @@ h3 {
 }
 
 h1 {
-  font-size: $font-size-big-x;
-  line-height: $line-height-big;
+  font-size: $font-size-larger;
+  line-height: $line-height-lg;
   color: $white;
 }
 
@@ -46,4 +50,10 @@ h3 {
   font-size: $font-size-lg-x;
   line-height: $line-height-base;
   color: $black;
+}
+
+.title--h2 {
+  padding: 20px 0;
+  text-align: center;
+  background: url("../img/underline.jpg") center bottom no-repeat;
 }

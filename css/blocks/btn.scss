@@ -1,0 +1,24 @@
+.btn {
+    padding: 8px 20px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $white;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+    &--transparent {
+        border-radius: 2px;
+        border-color: $white;
+    }
+
+    &--blue {
+        border-radius: 2px;
+        border-color: $blue;
+        background-color: $blue;
+    }
+}
