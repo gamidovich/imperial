@@ -57,3 +57,11 @@ h3 {
   text-align: center;
   background: url("../img/underline.jpg") center bottom no-repeat;
 }
+
+.title--subscribe {
+  font-size: $font-size-larger;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-base;
+  text-transform: none;
+  color: $white;
+}
