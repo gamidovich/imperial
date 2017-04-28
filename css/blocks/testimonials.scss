@@ -4,6 +4,11 @@
     &__inner {
         margin: 0 auto;
         padding: 15px;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     &__description {
@@ -12,5 +17,40 @@
         line-height: $line-height-lg;
         text-align: center;
         color: $second-color;
+    }
+
+    &__person {
+        text-align: center;
+    }
+
+    &__avatar {
+        max-width: 260px;
+        height: 260px;
+        border: 6px solid $white;
+        object-fit: cover;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    &__name {
+        max-width: 260px;
+        font-family: $font-family-1;
+        font-size: $font-size-lg-x;
+        font-weight: $font-weight-bold;
+        color: $blue;
+    }
+
+    &__company {
+        width: 260px;
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg;
+    }
+
+    &__quote {
+        padding: 60px;
+        font-family: $font-family-2;
+        font-size: $font-size-lg;
+        background-color: $white;
     }
 }

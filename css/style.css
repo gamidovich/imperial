@@ -205,11 +205,81 @@ body {
   .testimonials__inner {
     margin: 0 auto;
     padding: 15px; }
+    .testimonials__inner .row {
+      display: flex;
+      flex-direction: column; }
   .testimonials__description {
     font-family: "Open Sans", sans-serif;
     font-size: 1.4rem;
     line-height: 1.4;
     text-align: center;
     color: #666666; }
+  .testimonials__person {
+    text-align: center; }
+  .testimonials__avatar {
+    max-width: 260px;
+    height: 260px;
+    border: 6px solid #ffffff;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden; }
+  .testimonials__name {
+    max-width: 260px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #03c4eb; }
+  .testimonials__company {
+    width: 260px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4; }
+  .testimonials__quote {
+    padding: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    background-color: #ffffff; }
+
+.team__inner {
+  margin: 0 auto;
+  padding: 15px; }
+.team__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #666666; }
+.team__item {
+  text-align: center; }
+.team__pic {
+  width: 260px;
+  height: 260px;
+  max-width: 100%; }
+.team__name {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700; }
+.team__company {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-style: italic; }
+.team__social a {
+  padding: 0 10px; }
+
+.contact__inner {
+  margin: 0 auto;
+  padding: 15px; }
+.contact__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #999999; }
+.contact__city, .contact__mail, .contact__tel {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4; }
+.contact__icon {
+  color: #03c4eb; }
 
 /*# sourceMappingURL=style.css.map */

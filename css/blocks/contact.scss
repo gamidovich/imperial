@@ -1,0 +1,27 @@
+.contact {
+
+    &__inner {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    &__description {
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg;
+        text-align: center;
+        color: $gray;
+    }
+
+    &__city,
+    &__mail,
+    &__tel {
+        font-family: $font-family-2;
+        font-size: $font-size-base;
+        line-height: $line-height-lg;
+    }
+
+    &__icon {
+        color: $blue;
+    }
+}
