@@ -65,3 +65,11 @@ h3 {
   text-transform: none;
   color: $white;
 }
+
+.title--h4 {
+  font-family: $font-family-1;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-base;
+  color: $first-color;
+}

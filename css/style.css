@@ -32,6 +32,13 @@ h3 {
   text-transform: none;
   color: #ffffff; }
 
+.title--h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #333333; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -163,5 +170,46 @@ body {
     font-size: 1.4rem;
     line-height: 1.4;
     color: #ffffff; }
+
+.portfolio__inner {
+  margin: 0 auto;
+  padding: 15px; }
+.portfolio__item {
+  padding: 15px 0; }
+.portfolio__link {
+  position: relative;
+  display: block;
+  width: 260px;
+  height: 260px;
+  overflow: hidden; }
+.portfolio__pic {
+  max-height: 100%; }
+.portfolio__item-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+.portfolio__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #666666; }
+
+.testimonials {
+  background-color: #f6f6f6; }
+  .testimonials__inner {
+    margin: 0 auto;
+    padding: 15px; }
+  .testimonials__description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    text-align: center;
+    color: #666666; }
 
 /*# sourceMappingURL=style.css.map */
